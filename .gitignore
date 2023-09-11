@@ -1,0 +1,4 @@
+# ignore all profile directorys
+@*/
+# ignore node_modules
+node_modules/
