@@ -88,7 +88,6 @@ async function main(){
     const children = await page.evaluate(() => {
       return (Array.from(document.querySelector('div[id="download"]').children).length);
     })
-    console.log("COUNT : " , children)
 
     if(parseInt(children) > 2){
 
